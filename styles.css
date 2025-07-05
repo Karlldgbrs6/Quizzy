@@ -73,3 +73,45 @@ button:hover {
   justify-content: center;
   flex-wrap: wrap;
 }
+/* 🎯 Responsive pour les écrans < 768px */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .container, #quiz-container, #result-container {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+
+  h1, h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .question-text, #score {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .answer-button, button {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  #progress-bar {
+    height: 10px;
+  }
+
+  .flag-img, img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+}
