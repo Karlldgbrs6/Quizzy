@@ -1,2 +1,2 @@
 # Quizzy
-Quiz multiligue eb espagnol, englais et espagnol.
+Quiz multiligue en espagnol, englais et espagnol.
